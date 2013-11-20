@@ -1,10 +1,10 @@
-===================
-Simple canvas clock
-===================
+==============
+Analogic clock
+==============
 
 Introduction
 ------------
-The idea was found from the article in the references. From this poing, I added some basic ticks for each minute and some texts in the hours. Many thins to improve, I am waiting your PR.
+The idea was found from the article in the references. From this point, I added some basic ticks for each minute and some texts in some hours. Many things to improve, I am waiting your PR.
 
 Demo
 ----
