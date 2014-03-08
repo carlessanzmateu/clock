@@ -1,4 +1,5 @@
 var intervalId = 0;
+// var fontSize = 
 
 /**
 * Setup and start an analog clock using a canvas
@@ -88,7 +89,7 @@ function setupAnalogClock(canvas, clockWidth) {
             ctx.save();
             ctx.translate(0, 30);
             ctx.rotate(-angle);
-            ctx.font="5vh sans-serif";
+            ctx.font="15pt sans-serif";
             ctx.fillText(i, -10, 10);
             ctx.restore();
           }
