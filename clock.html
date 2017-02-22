@@ -5,16 +5,23 @@
   <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Clock</title>
-  <script src="javascripts/jquery-2.0.3.min.js"></script>
   <link href="stylesheets/custom.css" rel="stylesheet" />
+  <link href="stylesheets/ui/skin-selectors.css" rel="stylesheet" />
 </head>
 <body>
   <div id="container">
+    <div id="simple" class="skin-selectors tooltip">
+      <span class="tooltiptext">Make me Simple!</span>
+    </div>
+    <div id="fancy" class="skin-selectors tooltip">
+      <span class="tooltiptext">Make me Fancy :)</span>
+    </div>
     <p id="date">&nbsp;</p>
     <canvas id="analogClock">Clock</canvas>
   </div>
+  <script src="javascripts/jquery-2.0.3.min.js"></script>
+  <script src="node_modules/animejs/anime.js"></script>
+  <script src="javascripts/ui/skin-selectors.js"></script>
   <script src="javascripts/clock.js"></script>
 </body>
 </html>
-
-
